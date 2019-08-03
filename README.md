@@ -12,7 +12,7 @@
 # Change Password
 
   Change Password is a laravel package for changing logged in user password. General authentication features like login, 
-  register, forget password and email verification already comes with laravel builtin authentication. Password change feature for loggedin user is yet missing.
+  register, forget password and email verification already comes with laravel builtin authentication. Password change feature for loggedin user is still missing.
   You can use this package to allow logged in users to change their password.
   
   Change Password Requires 
