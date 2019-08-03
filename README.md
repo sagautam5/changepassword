@@ -1,6 +1,6 @@
 # Change Password Package
 
-## This will help to change the user password
+## This will help to change the user password in laravel
 
 [![Issues](https://img.shields.io/github/issues/sagautam5/changepassword
 )](https://github.com/sagautam5/changepassword/issues)
@@ -50,7 +50,7 @@ php artisan vendor:publish
 Then, select following provider,
  
 ```sh
-    [-] Provider: Sagautam5\ChangePassword\ChangePasswordServiceProvider
+    Provider: Sagautam5\ChangePassword\ChangePasswordServiceProvider
 ```
 
 Then you will see **change.blade.php** in the following path:
