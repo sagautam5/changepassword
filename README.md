@@ -23,7 +23,7 @@
    
 # Installation
 
-```php
+```sh
 composer require sagautam5/changepassword
 ```
 
@@ -32,7 +32,7 @@ composer require sagautam5/changepassword
 After installation, you can use the change password feature by sending get 
 request to following route,
 
-```php
+```sh
 url : url('/changepassword')
 route: route('password.change.form')
 ``` 
@@ -43,19 +43,19 @@ After hitting above route or url, You will see a form like this:
 
 If you want to change the form layout then just run the following command in console
 
-```php
+```sh
 php artisan vendor:publish
 ```
 
 Then, select following provider,
  
-```php
+```sh
     [-] Provider: Sagautam5\ChangePassword\ChangePasswordServiceProvider
 ```
 
 Then you will see **change.blade.php** in the following path:
 
-```php
+```sh
    resources/views/vendor/changepassword/password/change.blade.php
 ```
 
