@@ -1,0 +1,31 @@
+{
+    "name": "sagautam5/changepassword",
+
+    "description": "This will help to change the user password",
+
+    "type": "library",
+
+    "license": "MIT",
+
+    "authors": [
+
+        {
+            "name": "Sagar Gautam",
+
+            "email": "sagautam5@gmail.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+
+    "require": {},
+
+    "autoload": {
+
+        "psr-4": {
+
+            "Sagautam5\\ChangePassword\\": "src/"
+
+        }
+    }
+}
