@@ -27,5 +27,12 @@
             "Sagautam5\\ChangePassword\\": "src/"
 
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sagautam5\\ChangePassword\\ChangePasswordServiceProvider"
+            ]
+        }
     }
 }
