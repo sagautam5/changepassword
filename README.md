@@ -39,7 +39,7 @@ route: route('password.change.form')
 
 After hitting above route or url, You will see a form like this:
 
-![Password Change Form](https://raw.githubusercontent.com/sagautam5/changepassword/master/src/images/changepasssword.png)
+![Password Change Form](https://raw.githubusercontent.com/sagautam5/changepassword/master/src/images/changepassword.png)
 
 If you want to change the form layout then just run the following command in console
 
