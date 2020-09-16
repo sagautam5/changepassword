@@ -50,13 +50,13 @@ php artisan vendor:publish
 Then, select following provider,
  
 ```sh
-    Provider: Sagautam5\ChangePassword\ChangePasswordServiceProvider
+Provider: Sagautam5\ChangePassword\ChangePasswordServiceProvider
 ```
 
 Then you will see **change.blade.php** in the following path:
 
 ```sh
-   resources/views/vendor/changepassword/password/change.blade.php
+resources/views/vendor/changepassword/password/change.blade.php
 ```
 
 You can modify this blade file to make password change form as you want.
