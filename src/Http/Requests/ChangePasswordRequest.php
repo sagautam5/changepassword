@@ -32,7 +32,7 @@ class ChangePasswordRequest extends FormRequest
                 function ($attribute, $value, $fail) {
 
                 if (!\Hash::check($this->current_password, Auth::User()->password)) {
-                    $fail('Current Password is incorrect.');
+                    $fail('Current password is incorrect.');
                 }
             }
             ]

@@ -14,6 +14,8 @@ use Sagautam5\ChangePassword\Http\Requests\ChangePasswordRequest;
 class AuthController extends Controller
 {
     /**
+     * This allows only authenticated users can use this functionality
+     *
      * AuthController constructor.
      */
     public function __construct()
@@ -39,10 +41,16 @@ class AuthController extends Controller
      */
     public function postChangePassword(ChangePasswordRequest $request)
     {
+        // Check if request is from authenticated user
+
         if(Auth::Check())
         {
+            // Check if user has added previous password correctly
+
             if(\Hash::check($request->current_password, Auth::User()->password))
             {
+                // Update the user password
+
                 User::find(Auth::user()->id)->update(["password"=> bcrypt($request->password)]);
 
                 return redirect()->to('/')->with('success','Password changed successfully !');
