@@ -4,7 +4,7 @@ namespace Sagautam5\ChangePassword\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
-use App\User;
+use App\Models\User;
 use Sagautam5\ChangePassword\Http\Requests\ChangePasswordRequest;
 
 /**
